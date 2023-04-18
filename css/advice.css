@@ -1,0 +1,243 @@
+/* advice style star */
+
+.advice {
+  /* background-color:  aqua; */
+  width: 1536px;
+  height: 700px;
+  /* Top:1450px; */
+  gap: 10px;
+  position: relative;
+  top: 0px;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.advice h2 {
+  width: 163px;
+  height: 57px;
+  position: relative;
+  left: 490px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: var(--second-color);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.advice p {
+  width: 470px;
+  height: 40px;
+  position: relative;
+  left: 550px;
+  top: -35px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.advice-cards {
+  position: relative;
+  top: -10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.advice-cards div {
+  position: relative;
+  /* background-color: green; */
+  width: 230px;
+  height: 321px;
+  left: 4px;
+}
+.advice-cards div:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.advice-card-1 h4 {
+  width: 130px;
+  height: 48px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  text-align: left;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  color: var(--second-color);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.advice-card-1 p {
+  width: 160px;
+  height: 60px;
+  position: relative;
+  top: 40px;
+  left: 30px;
+  text-align: left;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.advice-card-1 img {
+  position: absolute;
+  height: 138px;
+  left: 0px;
+  right: 0px;
+  top: 185px;
+}
+
+.advice-card-2 h4 {
+  width: 130px;
+  height: 48px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  text-align: left;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  color: var(--second-color);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.advice-card-2 p {
+  width: 160px;
+  height: 60px;
+  position: relative;
+  top: 40px;
+  left: 30px;
+  text-align: left;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.advice-card-2 img {
+  position: absolute;
+  height: 138px;
+  left: 0px;
+  right: 0px;
+  top: 185px;
+}
+
+.advice-card-3 h4 {
+  width: 130px;
+  height: 48px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  text-align: left;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  color: var(--second-color);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.advice-card-3 p {
+  width: 160px;
+  height: 60px;
+  position: relative;
+  top: 40px;
+  left: 30px;
+  text-align: left;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.advice-card-3 img {
+  position: absolute;
+  height: 138px;
+  left: 0px;
+  right: 0px;
+  top: 185px;
+}
+.advice-card-4 h4 {
+  width: 130px;
+  height: 48px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  text-align: left;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  color: var(--second-color);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.advice-card-4 p {
+  width: 160px;
+  height: 60px;
+  position: relative;
+  top: 40px;
+  left: 30px;
+  text-align: left;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.advice-card-4 img {
+  position: absolute;
+  height: 138px;
+  left: 0px;
+  right: 0px;
+  top: 185px;
+}
+
+/* advice style end */

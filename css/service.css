@@ -1,0 +1,232 @@
+/* service style star */
+
+.services {
+  width: 1536px;
+  height: 911px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.services h2 {
+  width: 500px;
+  height: 57px;
+  position: relative;
+  top: 100px;
+  left: 354px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--second-color);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.services h5 {
+  width: 511px;
+  height: 40px;
+  position: relative;
+  top: 120px;
+  left: 550px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.most {
+  position: relative;
+  top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 130px;
+}
+.most-image img {
+  width: 597px;
+  height: 442px;
+}
+
+.most-right {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.most h3 {
+  width: 400px;
+  height: 114px;
+  position: relative;
+  top: -20px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: var(--second-color);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.most p {
+  width: 330px;
+  height: 60px;
+  position: relative;
+  top: -10px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.most-bottom img {
+  position: relative;
+  color: #ffa62b;
+  top: 40px;
+}
+.most-right h4 {
+  width: 277px;
+  height: 48px;
+  position: relative;
+  left: 50px;
+  top: -5px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: var(--second-color);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.most-bottom p {
+  width: 222px;
+  height: 24px;
+  position: relative;
+  left: 50px;
+  top: -5px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.mailto {
+  /* background-color: yellow; */
+  width: 1536px;
+  height: 404px;
+  top: 3060px;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+.mailto > div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.mailto .mail {
+  width: 1142px;
+  height: 124px;
+  position: relative;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 50px;
+  background: var(--main-color);
+  border-radius: 2px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.mailto .mail label {
+  width: 288px;
+  height: 64px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.mailto .mail input {
+  width: 450px;
+  height: 58px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 548px;
+  right: 52px;
+  top: 37px;
+  bottom: 0px;
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px 0px 0px 5px;
+}
+.mailto .mail button {
+  width: 117px;
+  height: 58px;
+  gap: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 950px;
+  right: 0px;
+  top: 36.9px;
+  bottom: 0px;
+  background: white;
+  border: 1px solid transparent;
+  border-radius: 0px 5px 5px 0px;
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  transform: 0, 5s;
+}
+.mailto .mail input {
+  outline: none;
+}
+.mailto .mail button:focus-within {
+  color: #ffffff;
+  background: #ffa62b;
+  border: 1px solid transparent;
+  outline: none;
+  /* box-shadow: 20px 0px 10px #FFA62B; */
+}
+
+/* service style end */

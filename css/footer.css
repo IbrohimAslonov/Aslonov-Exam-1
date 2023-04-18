@@ -1,0 +1,121 @@
+/* footer style star */
+
+.footer {
+  width: 1536px;
+  height: 350px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  background-color: var(--main-color);
+}
+
+.footer-bottom {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  position: relative;
+  margin-bottom: 20px;
+  color: white;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.footer-bottom div a {
+  position: relative;
+  top: 20px;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+  align-content: center;
+  justify-content: left;
+  gap: 20px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.div-end div {
+  margin-top: -10px;
+}
+.div-end svg {
+  width: 24.81px;
+  height: 24.81px;
+  position: relative;
+  top: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: start;
+}
+.div-end a {
+  width: 305px;
+  height: 29.25px;
+  position: relative;
+  left: 40px;
+  top: 30px;
+  margin-top: -20px;
+  display: flex;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+#footer-end {
+  width: 1536px;
+  height: 68px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  background: #fafafa;
+  flex: none;
+  order: 8;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.footer-end {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 600px;
+}
+
+.footer-end span {
+  width: 400px;
+  height: 24px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+}
+/* footer style end */

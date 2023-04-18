@@ -1,0 +1,239 @@
+/* about style star */
+
+.about {
+  width: 1536px;
+  height: 526px;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: relative; */
+  margin-top: 120px;
+  background: #fafafa;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  /* background-color: yellow; */
+}
+.about h2 {
+  width: Hug (221px);
+  height: Hug (57px);
+  padding-top: 80px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  /* identical to box height, or 142% */
+  letter-spacing: 0.2px;
+  /* text-color */
+  color: var(--second-color);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-align: center;
+}
+.about p {
+  width: 511px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 500px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  text-align: center;
+  letter-spacing: 0.2px;
+  /* second-text-color */
+  color: #737373;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.about-cards {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.about-cards div {
+  width: 230px;
+  height: 209px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 40px;
+  gap: 10px;
+  background: #ffffff;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.about svg {
+  position: relative;
+  bottom: 10px;
+}
+.about h3 {
+  width: 53px;
+  height: 57px;
+  /* h2 */
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  /* identical to box height, or 142% */
+  letter-spacing: 0.2px;
+  color: var(--second-color);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.about span {
+  width: 166px;
+  height: 24px;
+  /* h5 */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.1px;
+  /* second-text-color */
+  color: #737373;
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.about-card-1 {
+  width: 230px;
+  height: 209px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 40px;
+  gap: 10px;
+  width: 230px;
+  height: 209px;
+  background: #ffffff;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.about-card-2 {
+  width: 230px;
+  height: 209px;
+  padding: 30px, 40px, 30px, 40px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 40px;
+  gap: 10px;
+
+  width: 230px;
+  height: 209px;
+
+  background: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.about-card-2 h3 {
+  width: 48px;
+  height: 57px;
+  position: relative;
+  top: 10px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.about-card-2 span {
+  width: 186px;
+  height: 24px;
+  position: relative;
+  top: 10px;
+  left: 3px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #737373;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.about-card-4 h3 {
+  width: 81px;
+  height: 57px;
+  position: relative;
+  top: 5px;
+  left: -5px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.about-card-4 span {
+  width: 119px;
+  height: 24px;
+  position: relative;
+  top: 10px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #737373;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.about-card-1:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.about-card-2:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.about-card-3:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.about-card-4:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* about style end */
